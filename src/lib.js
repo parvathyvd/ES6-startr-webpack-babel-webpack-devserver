@@ -1,0 +1,1 @@
+export const yourName = (name) => console.log(name);
