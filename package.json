@@ -7,14 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack  --mode production",
     "dev": "webpack --mode development",
-    "start" : "webpack-dev-server --output-public-path=/build/ --mode development"
+    "start": "webpack-dev-server --output-public-path=/build/ --mode development"
   },
   "author": "Parvathy",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
